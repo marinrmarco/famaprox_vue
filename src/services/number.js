@@ -47,8 +47,7 @@ numberService.compareNum = (numToGuess, numToTest) =>{
             aprox += 1
         }
     }
-    console.log([fama, aprox])
-    return [fama, aprox]
+    return {'numero': numToTest, 'famas': fama, 'aprox': aprox}
 }
 
 export default numberService

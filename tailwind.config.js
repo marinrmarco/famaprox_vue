@@ -3,10 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily:{
-      'pacifico': ["pacifico"]
-    },
-    fontSize: {
-      tp: "60px"
+      'pacifico': ['Pacifico']
     },
   },
   variants: {
