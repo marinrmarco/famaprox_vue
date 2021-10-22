@@ -50,4 +50,9 @@ numberService.compareNum = (numToGuess, numToTest) =>{
     return {'numero': numToTest, 'famas': fama, 'aprox': aprox}
 }
 
+numberService.hadRepeatedNum = (numToGuess) => {
+    const arr = Array.from(numToGuess)
+    return arr.some(function(v,i) { return arr.indexOf(v,i+1)>-1 })
+}
+
 export default numberService

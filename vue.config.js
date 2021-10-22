@@ -1,4 +1,7 @@
 module.exports = {
+    configureWebpack: {
+        devtool: 'source-map'
+    },
     publicPath: "./",
     chainWebpack: config => {
         config
@@ -7,5 +10,5 @@ module.exports = {
                 args[0].title = "My Vue App";
                 return args;
             })
-    }
+    },
 }
