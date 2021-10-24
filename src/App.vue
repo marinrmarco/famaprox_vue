@@ -1,14 +1,18 @@
 <template>
-  <genNumber/>
+  <pmheader/>
+  <teclado/>
 </template>
 
 <script>
-import genNumber from './components/genNumber.vue'
+import Pmheader from '@/components/header.vue'
+import teclado from '@/components/teclado.vue'
+
 
 export default {
-  name: 'App',
+  name: 'app',
   components: { 
-    genNumber
+    Pmheader,
+    teclado,
   }
 }
 </script>
