@@ -1,7 +1,7 @@
 <template>
     <resultados :items="items"/>
     <div class="container max-w-screen-sm w-3/4 mx-auto m-10 bg-blue-200 p-8 rounded-md">
-        <input class="max-w-screen-sm mx-auto text-5xl h-20 text-center col-start-2 col-span-4 bg-blue-100 m-4" 
+        <input class="max-w-screen-sm w-3/4 mx-auto text-lg md:text-4xl h-20 text-center col-start-2 col-span-4 bg-blue-100 m-4" 
         type="text"  
         v-model="numToTest"
         disabled 

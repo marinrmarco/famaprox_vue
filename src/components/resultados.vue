@@ -4,7 +4,7 @@
         <div class="col-start-2 bg-blue-400 font-bold">Intento</div>
         <div class="col-start-3 bg-blue-400 font-bold">Número</div>
         <div class="col-start-4 bg-blue-400 font-bold">Famas</div>
-        <div class="col-start-5 bg-blue-400 font-bold">Aproximaciones</div>
+        <div class="truncate col-start-5 bg-blue-400 font-bold">Aproximaciones</div>
     </div>
 
     <div class="grid grid-cols-6" v-for="(item, index) in items" :key="index">
